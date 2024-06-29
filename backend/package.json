@@ -1,0 +1,30 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node bin/www",
+    "dev": "nodemon bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@chainsafe/libp2p-gossipsub": "^13.1.0",
+    "@orbitdb/core": "^2.2.0",
+    "blockstore-level": "^1.1.8",
+    "helia": "^4.2.4",
+    "express": "^4.17.1",
+    "body-parser": "^1.19.0",
+    "@libp2p/tcp": "^0.16.0",
+    "@libp2p/identify": "^1.0.0",
+    "@chainsafe/libp2p-noise": "^8.0.6",
+    "@chainsafe/libp2p-yamux": "^0.4.0",
+    "@libp2p/mdns": "^0.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
